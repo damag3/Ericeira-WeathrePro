@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ericeira Weatherpro</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #334155;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background-color: #f8fafc;
+        }
+        .container {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            border: 1px solid #e2e8f0;
+        }
+        h1 {
+            color: #0f172a;
+            margin-top: 0;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 2rem;
+        }
+        p, li {
+            font-size: 0.95rem;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .lang-btn {
+            background: #6366f1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .lang-section {
+            display: block;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">
+        <a href="#pt" class="lang-btn" onclick="switchLang('pt')">Português</a>
+        <a href="#en" class="lang-btn" onclick="switchLang('en')">English</a>
+    </div>
+
+    <div class="container">
+        <!-- PORTUGUESE -->
+        <section id="sec-pt" class="lang-section">
+            <h1>Política de Privacidade</h1>
+            <p><strong>Última atualização:</strong> 1 de Junho de 2026</p>
+            <p>A presente Política de Privacidade explica como o aplicativo <strong>Ericeira Weatherpro</strong> trata os seus dados sensíveis e de dispositivo para fornecer informações meteorológicas.</p>
+            
+            <h2>1. Informações que Recolhemos e Processamos</h2>
+            <p>O <strong>Ericeira Weatherpro</strong> foi desenhado tendo em mente a privacidade do utilizador:</p>
+            <ul>
+                <li><strong>Localização Geográfica (Coordenadas GPS):</strong> Se conceder permissão de localização ao aplicativo, este processará as suas coordenadas (latitude e longitude) apenas localmente no dispositivo para fazer chamadas diretas às APIs de previsão do tempo (Open-Meteo e IPMA).</li>
+                <li><strong>Preferências do Utilizador:</strong> Guardamos localmente no seu dispositivo (usando <code>localStorage</code>) as suas opções de idioma (Português/Inglês) e de tema visual (claro/escuro).</li>
+            </ul>
+
+            <h2>2. Armazenamento e Partilha de Dados</h2>
+            <ul>
+                <li><strong>Sem Registo de Utilizadores:</strong> Não recolhemos nomes, e-mails, números de telefone ou qualquer outro identificador pessoal.</li>
+                <li><strong>Sem Servidor Central:</strong> Não guardamos as suas coordenadas de localização em nenhum servidor próprio.</li>
+                <li><strong>Sem Partilha com Terceiros:</strong> Os dados de localização geográfica nunca são vendidos, partilhados ou expostos a redes de anúncios ou parceiros comerciais.</li>
+            </ul>
+
+            <h2>3. APIs e Serviços de Terceiros</h2>
+            <p>Para obter as previsões meteorológicas, o aplicativo faz chamadas de rede para as seguintes APIs públicas:</p>
+            <ul>
+                <li><strong>Open-Meteo API:</strong> Utilizada para obter dados meteorológicos, marés, qualidade do ar e vento (<a href="https://open-meteo.com/" target="_blank">open-meteo.com</a>).</li>
+                <li><strong>IPMA API:</strong> Utilizada para obter avisos meteorológicos oficiais em Portugal (<a href="https://www.ipma.pt/" target="_blank">ipma.pt</a>).</li>
+            </ul>
+            <p>Estes serviços de terceiros podem receber o seu endereço IP durante as requisições normais de rede, mas não recebem dados pessoais identificáveis.</p>
+
+            <h2>4. Crianças</h2>
+            <p>Este aplicativo não recolhe intencionalmente dados de crianças com idade inferior a 13 anos. Dado que a geolocalização é processada estritamente no dispositivo de forma anónima, o aplicativo está em conformidade com as regras de proteção de menores.</p>
+
+            <h2>5. Contacto</h2>
+            <p>Se tiver alguma dúvida sobre esta política de privacidade, pode contactar o programador através do e-mail de suporte configurado na Google Play Console.</p>
+        </section>
+
+        <!-- ENGLISH -->
+        <section id="sec-en" class="lang-section hidden">
+            <h1>Privacy Policy</h1>
+            <p><strong>Last updated:</strong> June 1, 2026</p>
+            <p>This Privacy Policy explains how the <strong>Ericeira Weatherpro</strong> app handles your sensitive user and device data to provide weather forecasts.</p>
+            
+            <h2>1. Information We Collect and Process</h2>
+            <p><strong>Ericeira Weatherpro</strong> is designed with user privacy in mind:</p>
+            <ul>
+                <li><strong>Geographical Location (GPS Coordinates):</strong> If you grant location permission to the app, it will process your coordinates (latitude and longitude) strictly locally on your device to make direct calls to weather forecast APIs (Open-Meteo and IPMA).</li>
+                <li><strong>User Preferences:</strong> We store your language choices (Portuguese/English) and visual theme (light/dark) locally on your device using <code>localStorage</code>.</li>
+            </ul>
+
+            <h2>2. Data Storage and Sharing</h2>
+            <ul>
+                <li><strong>No User Registration:</strong> We do not collect names, emails, phone numbers, or any other personal identifiers.</li>
+                <li><strong>No Central Database:</strong> We do not store your location coordinates on any database servers.</li>
+                <li><strong>No Third-Party Sharing:</strong> Your geographical location data is never sold, shared, or exposed to advertising networks or business partners.</li>
+            </ul>
+
+            <h2>3. Third-Party APIs and Services</h2>
+            <p>To retrieve weather forecasts, the app makes network calls to the following public APIs:</p>
+            <ul>
+                <li><strong>Open-Meteo API:</strong> Used to retrieve weather, tide, air quality, and wind data (<a href="https://open-meteo.com/" target="_blank">open-meteo.com</a>).</li>
+                <li><strong>IPMA API:</strong> Used to retrieve official meteorological warnings in Portugal (<a href="https://www.ipma.pt/" target="_blank">ipma.pt</a>).</li>
+            </ul>
+            <p>These third-party services may receive your IP address during normal network requests, but they do not receive any personally identifiable information.</p>
+
+            <h2>4. Children's Privacy</h2>
+            <p>This app does not knowingly collect data from children under the age of 13. Since location coordinates are processed strictly on-device in an anonymous manner, the app complies with child safety regulations.</p>
+
+            <h2>5. Contact</h2>
+            <p>If you have any questions about this privacy policy, you can contact the developer using the support email configured in the Google Play Console.</p>
+        </section>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            if (lang === 'pt') {
+                document.getElementById('sec-pt').classList.remove('hidden');
+                document.getElementById('sec-en').classList.add('hidden');
+            } else {
+                document.getElementById('sec-pt').classList.add('hidden');
+                document.getElementById('sec-en').classList.remove('hidden');
+            }
+        }
+        // Initialize based on hash
+        if (window.location.hash === '#en') {
+            switchLang('en');
+        }
+    </script>
+</body>
+</html>
